@@ -1,0 +1,25 @@
+{
+    "name": "BL0937",
+    "keywords": "BL0937,power,current,voltage",
+    "description": "BL0937 library for Arduino and ESP8266",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/xoseperez/BL0937.git"
+    },
+    "version": "1.1.0",
+    "license": "GPL-3.0",
+    "exclude": "tests",
+    "frameworks": "arduino",
+    "platforms": ["atmelavr", "espressif8266"],
+    "dependencies": [
+    ],
+    "authors": {
+        "name": "Xose Perez",
+        "email": "xose.perez@gmail.com",
+        "url": "http://tinkerman.cat",
+        "maintainer": true
+    },
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
